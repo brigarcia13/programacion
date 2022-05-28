@@ -161,18 +161,19 @@ cout<<"el resultado de la suma es: "<<GA_t<<endl;
 
 int ga_menu(){
 int a,r,d,flag;
-                                                                system("color 1f ");                                    cout<<"\nINGRESE LA OPCION QUE DESEE INGRESAR:"<<endl;
-	 cout<<"\n1.->GARCIA ARROYO BRITNEY DARIANA"<<endl;
+                                                                system("color 1f ");                              cout<<"\nINGRESE LA OPCION QUE DESEE INGRESAR:"<<endl;
+   cout<<"\n1.->GARCIA ARROYO BRITNEY DARIANA"<<endl;
 								 cout<<"\n2.->"<<endl;
-								 cout<<"\n3.->"<<endl;
-								 cout<<"\n4.->"<<endl;
-								 cout<<"\n5.->"<<endl;
-								 cout<<"\n6.->Salir"""<<endl;
-								   cout<<"  "; cin>>a;
-								    system("clear");                                    
-								    do{
-														              switch(a){                              
-																					   case 1: {cout<<"\nAQUI PODRAS ENCONTRAS TODOS LOS EJERCIOS DE GARCIA ARROYO BRITNEY"<<endl;                       cout<<"\n1|->1Suma de dos numeros:"<<endl;              cout<<"\n2.|->Compara dos numeros:"<<endl;              cout<<"\n3.|->Punto de venta:"<<endl;                   cout<<"\n4.|->Contador de monedas:"<<endl;		     cout<<"\n5.|->Cacular la edad de una persona :"<<endl;
+	 cout<<"\n3.->"<<endl;
+	 cout<<"\n4.->"<<endl;
+	 cout<<"\n5.->"<<endl;
+	 cout<<"\n6.->Salir"""<<endl;
+	cout<<"  "; cin>>a;
+	 system("clear");                                              do{
+          switch(a){                              
+																					   case 1: {cout<<"\nAQUI PODRAS ENCONTRAS TODOS LOS EJERCIOS DE GARCIA ARROYO BRITNEY"<<endl;   
+																					cout<<"\n1|->1Suma de dos numeros:"<<endl;              cout<<"\n2.|->Compara dos numeros:"<<endl;              cout<<"\n3.|->Punto de venta:"<<endl;                   cout<<"\n4.|->Contador de monedas:"<<endl;	
+cout<<"\n5.|->Cacular la edad de una persona :"<<endl;
      cout<<"\n6.|->Salir :"<<endl;
 									    cout<<""<<endl;
 		    cout<<""; cin>>d;
@@ -182,9 +183,9 @@ switch(d){
 case 1:{ga_Compara();}break;
 case 2:{ga_CuentaMoneda();}break;                       case 3:{ga_Laedad();}break;                             case 4:{GA_SumaN();}break;
 case 5:{ga_PuntoVenta();}break;
-case 6:{cout<<"si esta seguro de salir dijite (-
-							 1-)"; cout<<"     ";cout<<"Si desea regresar al menu principal"<<endl;                                             cout<<"  ";
-	  cin>>r;
+case 6:{cout<<"si esta seguro de salir dijite (-1-)"; cout<<"  ";cout<<"Si desea regresar al menu principal"<<endl;       
+cout<<"  ";
+ cin>>r;
      if (r==1){
 												                    return 0;}
 								    }
