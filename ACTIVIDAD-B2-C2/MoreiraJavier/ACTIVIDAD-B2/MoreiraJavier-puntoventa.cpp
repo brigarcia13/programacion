@@ -1,5 +1,5 @@
 
-/*Nombre del programa: suma de dos numeros
+/*Nombre del programa: punto de venta 
  * Archivo: edadn.cpp
  * Autor: Javier Moreira
  * Fecha de elabiracion: 2022/05/10
